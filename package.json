@@ -1,21 +1,10 @@
 {
 	"name": "travel-site",
 	"version": "1.0.0",
-	"description": "",
-	"main": "app.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"webpack": "webpack --config webpack.config.js",
+		"watch": "gulp watch"
 	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/ehrrrr/travel-site.git"
-	},
-	"author": "Elisaveta Hristova",
-	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/ehrrrr/travel-site/issues"
-	},
-	"homepage": "https://github.com/ehrrrr/travel-site#readme",
 	"dependencies": {
 		"jquery": "3.2.1",
 		"jquery-smooth-scroll": "2.2.0",
